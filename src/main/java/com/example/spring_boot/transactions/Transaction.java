@@ -46,6 +46,6 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Transaction{" + "id=" + this.id + ", service='" + this.service + '\'' + ", amount='" + this.amount + '\'' + '}';
+        return "{" + "id=" + this.id + ", service='" + this.service + '\'' + ", amount='" + this.amount + '\'' + '}';
     }
 }
